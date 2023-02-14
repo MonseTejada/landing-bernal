@@ -1,0 +1,177 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+@font-face {
+    font-family: fuenteBold;
+    font-family: fuenteBook;
+
+    src: url("../Futura/FuturaPTBold.otf");
+    src: url("../Futura/FuturaPTBook.otf");
+}
+body {
+    font-family: fuenteBook;
+    overflow-x: hidden;
+    color: #002856;
+}
+h1{
+
+}
+h2 {
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+
+}
+
+
+.fs__1{
+    font-size: 3rem;
+
+}
+.fs__2{
+    font-size: 2.5rem;
+}
+.fs__3{
+    font-size: 2rem;
+
+}
+.fs__4{
+    font-size: 1.7rem;
+
+}
+
+/* fuentes */
+/*--------------- navbar ---------------*/
+#nav-bar{
+    position: sticky;
+    top: 0; 
+}
+.navbar{
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+}
+.navbar-brand img{
+    height: 3rem;
+    padding-left: 3rem;
+}
+.navbar-nav li{
+    padding: 0  2rem;
+}
+.navbar-nav li a{
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+/*--------------- video ---------------*/
+.video{
+   position: relative;
+}
+.contenido-video{
+    position: absolute;
+    height: 100%;  
+    width: 100%;
+}
+ 
+video{
+    width: 100%;
+    display: block;
+}
+
+/*--------------- banderin y formulario ---------------*/
+.banderin{
+    width: 15rem;
+    margin: auto;
+    margin-top: -1rem;
+}
+.form-label {
+    color: #fff;
+
+}
+.btn-light {
+    background-color: #ffb259c7;
+    color: #0000ff;
+}
+.boton{
+     color: white;
+     font-weight: 600;
+     letter-spacing: 2px;
+     text-shadow: 2px 2px 3px rgb(26 14 86 / 64%);
+     font-size: 1.2rem;
+     width: 100%;
+     margin-top: 1rem;
+}
+
+.form-control {
+    background-color: #62626600;
+    border-radius: 1rem;
+    border: 4px solid#ffb25978;
+    color: #e8e8e8;
+
+}
+
+.btn-radio {
+    border-radius: 2rem;
+}
+
+.text-nav {
+    font-size: 1.5rem;
+}
+.formcontainer {
+    margin-top: 4rem;
+    background: (0, 0, 0, .1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(101, 96, 96);
+    background-image: linear-gradient(to top, rgb(21 192 221 / 95%) 0%, hsl(254deg 45% 15% / 95%) 99%);
+    /* background-image: linear-gradient(to top, #139bd188 0%, #160628 100%);
+    /* background-image: linear-gradient(to top, #139bd188 0%, #160628 100%); */
+    margin-left: 7rem;
+}
+.imagen-ola{
+margin-top: -1rem;
+}
+/*---------------loteAA---------------*/
+ 
+.iccono{
+        width: 15rem;
+}
+
+
+/*------------------------------Mapa-------------------------*/
+.sobre-mapa{
+    background-color: rgb(252 234 224);
+    padding: 5rem;
+
+}
+#mapa-bernal{
+    height: 22rem;
+}
+.mt-5 {
+    margin-top: 4rem!important;
+}
+.team-member img {
+    width: 8rem;
+    height: 7rem;
+    margin: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+.lista::before {
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../images/ubicacion.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
